@@ -2,8 +2,6 @@ Count Occurrences in Sorted Array
 Problem statement
 You have been given a sorted array/list of integers 'arr' of size 'n' and an integer 'x'.
 
-
-
 Find the total number of occurrences of 'x' in the array/list.
 
 
@@ -18,14 +16,14 @@ Explanation: Total occurrences of '3' in the array 'arr' is 2.
 
 Sollution:
 
-1) use binarysearch to find the first occurence of the x in the sorted array
+1) use binarysearch to find the first occurrence of the x in the sorted array
 	mid = l+(r-l)/2
 	if(nums[mid] == x){
 		start = mid;
 		r = mid-1;
 	}
 	rest is the binary search logic 
-2) use binarysearch to find the last occurence of the x in the sorted array 
+2) use binarysearch to find the last occurrence of the x in the sorted array 
 	mid = l+(r-l)/2
 	if(nums[mid] == x){
 		end = mid;
